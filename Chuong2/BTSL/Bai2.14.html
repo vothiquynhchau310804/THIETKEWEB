@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form Đăng Ký</title>
+    <style>
+        header{text-align: center;}
+        h1{color: rgb(173, 4, 4); font-size: 40px; text-align: center;}
+        a{text-align:  center;}
+        nav{text-align: center;}
+        footer{text-align: center;}
+        form{text-align: center;}
+    </style>
+</head>
+<body>
+    <header>
+        <h1><img src="/images/images.png" ></h1>
+    </header>
+    <nav>
+    <a style="color: gray;" href="Home">Home</a>
+    <a href="Location">Location</a>
+    <a href="Blog">Blog</a>
+    </nav>
+    <main>
+        <h1>Sign Up</h1>
+        <form>
+            <label for="firstName">First Name</label>
+            <br>
+            <input type="text" id="firstName" name="firstName" required minlength="2" maxlength="20"><br><br>
+    
+            <label for="lastName">Last Name</label>
+            <br>
+            <input type="text" id="lastName" name="lastName" required minlength="5" maxlength="50"><br><br>
+    
+            <label for="email">Email</label>
+            <br>
+            <input type="email" id="email" name="email" required minlength="15" maxlength="30"><br><br>
+    
+            <label for="password">Password</label>
+            <br>
+            <input type="password" id="password" name="password" required minlength="8" maxlength="30"><br><br>
+    
+            <label for="confirmPassword">Confirm Password</label>
+            <br>
+            <input type="password" id="confirmPassword" name="confirmPassword" required><br><br>
+    
+            <input type="button" value="Sign Up">
+        </form>
+    </main>
+    <footer>
+        <p>Copyright by Mango.org</p>
+    </footer>
+</body>
+</html>
